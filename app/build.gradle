@@ -39,6 +39,10 @@ android {
         jvmTarget = rootProject.ext.java_version
     }
 
+    lintOptions {
+        abortOnError false
+    }
+
     buildTypes {
        release {
            minifyEnabled false
